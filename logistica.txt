@@ -1,0 +1,11 @@
+BuenosAires SaoPaulo 10 15 20 50
+BuenosAires Lima 15 20 30 70
+Lima Quito 10 12 15 20
+SaoPaulo RioDeJaneiro 5 10 15 25
+SaoPaulo Brasilia 8 12 18 30
+Quito Bogota 5 8 10 15
+Quito Guayaquil 3 5 7 10
+RioDeJaneiro Brasilia 6 9 12 20
+RioDeJaneiro BeloHorizonte 7 10 14 22
+RioDeJaneiro BuenosAires 8 12 18 28
+Bogota BuenosAires 10 15 20 50
