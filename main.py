@@ -17,7 +17,7 @@ def construir_grafo(datos):
     return grafo
 
 def ruta_mas_corta(grafo, origen, destino):
-    if origen not in grafo or destino not in grafo:
+    if origen not in grafo.nodes or destino not in grafo.nodes:
         return "Las ciudades especificadas no existen en el grafo."
 
     try:
@@ -109,7 +109,7 @@ if __name__ == "__main__":
             modificar_grafo(grafo, opcion)
             print("Grafo modificado.")
         elif opcion == "4":
-            print("¡Hasta luego!")
+            print("Hasta luego")
             break
         else:
             print("Opción no válida. Por favor, seleccione una opción válida.")
